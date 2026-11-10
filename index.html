@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ADCRUIZ | Brand Designer & Art Director</title>
+<meta name="description" content="Portfolio of Joseph Uba (ADCRUIZ): brand identity, logo design, flyers, social media and album art. Let's build something.">
+<meta property="og:title" content="ADCRUIZ | Brand Designer & Art Director">
+<meta property="og:description" content="Brand identities, logos, flyers and album art that help businesses stand out. See the work and request a quote.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0b'/%3E%3Cpath d='M32 14 50 48H36L32 40l-4 8H14z' fill='%23eee'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="spotlight" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><span></span></div>
+
+<nav class="nav" aria-label="Main">
+  <a href="#home" class="active" data-s="home">Home</a>
+  <a href="#about" data-s="about">About me</a>
+  <a href="#why" data-s="why">Why me</a>
+  <a href="#projects" data-s="projects">Projects</a>
+  <a href="#contact" data-s="contact">Contact</a>
+</nav>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow reveal" id="heroEyebrow">Brand Designer</p>
+    <h1 class="reveal" id="heroHeadline">Designs that make people stop scrolling.</h1>
+    <p class="lead reveal" id="heroSub"></p>
+    <div class="cta-row reveal">
+      <a class="btn btn-primary magnetic" href="#projects">See my work <span class="arr">&#8595;</span></a>
+      <a class="btn btn-ghost magnetic" id="heroQuote" href="#contact" target="_blank" rel="noopener">Get a quote</a>
+    </div>
+    <ul class="stats reveal" id="stats"></ul>
+  </div>
+
+  <div class="folder-stage reveal" id="folderStage">
+    <div class="folder" id="folder" tabindex="0" aria-label="Portfolio folder. Hover or tap to open.">
+      <div class="folder-back"><span class="tab-mark"></span></div>
+      <div class="folder-cards" id="folderCards"></div>
+      <div class="folder-front">
+        <i class="corner-arrow">&#8601;</i>
+        <p class="roles" id="roles"></p>
+        <h2 class="folder-title" aria-label="Portfolio"><span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span></h2>
+        <span class="year" id="year">2026</span>
+      </div>
+    </div>
+    <p class="folder-hint">Tap or hover the folder</p>
+  </div>
+
+  <div class="hero-foot"><b id="brand">ADCRUIZ</b><i>|</i><span id="ownerName">JOSEPH UBA</span></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap">
+    <h2 class="h-big reveal">About Me <i class="arr-mark">&#8600;</i></h2>
+    <div class="about-grid">
+      <div class="about-text reveal" id="aboutText"></div>
+    </div>
+
+    <h2 class="h-big reveal tools-title">Design Tools <i class="arr-mark">&#8600;</i></h2>
+    <div class="tools" id="tools"></div>
+    <p class="tools-note reveal" id="toolsNote"></p>
+  </div>
+</section>
+
+<!-- WHY ME -->
+<section id="why" class="section">
+  <div class="wrap">
+    <h2 class="h-big reveal">Why Me <i class="arr-mark">&#8600;</i></h2>
+    <div class="why-list" id="whyList"></div>
+
+    <div class="block-head reveal"><p class="eyebrow">What I can do for you</p><h3>Services</h3></div>
+    <div class="services" id="services"></div>
+
+    <div class="block-head reveal"><p class="eyebrow">Simple and clear</p><h3>How we work together</h3></div>
+    <ol class="process" id="process"></ol>
+
+    <div id="testiWrap" hidden>
+      <div class="block-head reveal"><p class="eyebrow">Client words</p><h3>Kind words from clients</h3></div>
+      <div class="testi" id="testi"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="wrap">
+    <h2 class="h-big reveal">Projects <i class="arr-mark">&#8600;</i></h2>
+    <div class="chips reveal" id="chips" role="tablist" aria-label="Filter projects"></div>
+    <div id="categories"></div>
+    <div class="inline-cta reveal">
+      <p>Like what you see? Let's make your brand look this good.</p>
+      <a class="btn btn-primary magnetic" id="projQuote" href="#contact" target="_blank" rel="noopener">Start your project</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <svg class="swirl" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true">
+    <path id="swirlPath" d="M0 360 C 120 340, 140 240, 200 250 C 270 262, 250 360, 180 330 C 110 300, 200 190, 300 280 C 420 390, 700 360, 900 260 C 1000 210, 1100 190, 1200 170" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <div class="wrap contact-grid">
+    <div class="contact-copy">
+      <h2 class="h-xl reveal" id="contactHeadline">Let's Build<br>Something.</h2>
+      <p class="lead reveal" id="contactText"></p>
+      <div class="cta-row reveal">
+        <a class="btn btn-primary magnetic" id="contactWA" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-ghost magnetic" id="contactMail" href="#">Send an email</a>
+      </div>
+      <ul class="contact-list reveal" id="contactList"></ul>
+    </div>
+    <figure class="polaroid reveal">
+      <img id="portrait" alt="Portrait of the designer" loading="lazy">
+    </figure>
+  </div>
+  <footer class="foot"><span id="footText"></span></footer>
+</section>
+</main>
+
+<a class="wa-float magnetic" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.200Zm4.5-6.1c-.2-.1-1.500-.7-1.700-.8s-.4-.1-.6.100-.7.800-.8 1-.3.200-.5.100a6.700 6.700 0 0 1-3.300-2.900c-.2-.4.200-.4.700-1.300.1-.1 0-.3 0-.4l-.8-1.800c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.300 3 3 0 0 0-.9 2.200 5.300 5.300 0 0 0 1.100 2.800 12 12 0 0 0 4.600 4c1.700.7 2.400.8 3.200.7a2.700 2.700 0 0 0 1.800-1.300 2.200 2.200 0 0 0 .2-1.300c-.1-.1-.2-.2-.5-.3Z"/></svg>
+  <span>Get a quote</span>
+</a>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Project viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" aria-label="Previous">&#8592;</button>
+  <div class="lb-stage" id="lbStage"></div>
+  <button class="lb-nav lb-next" aria-label="Next">&#8594;</button>
+  <div class="lb-bar"><span id="lbCap"></span><a id="lbQuote" class="btn btn-primary" href="#" target="_blank" rel="noopener">I want something like this</a></div>
+</div>
+
+<noscript><p style="padding:40px;color:#ccc">Please enable JavaScript to view this portfolio.</p></noscript>
+<script src="js/app.js"></script>
+</body>
+</html>

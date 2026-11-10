@@ -1,0 +1,124 @@
+{
+  "brand": "ADCRUIZ",
+  "ownerName": "Joseph Uba",
+  "roles": [
+    "Art Director",
+    "Brand Designer",
+    "Illustrator"
+  ],
+  "year": "2026",
+  "heroEyebrow": "Brand Designer · Art Director · Illustrator",
+  "heroHeadline": "Designs that make your brand impossible to ignore.",
+  "heroSub": "I help businesses stand out, build trust and win customers with brand identities, flyers, social media and album art that look sharp and sell.",
+  "quoteMessage": "Hi Joseph, I saw your portfolio and I would like to discuss a project.",
+  "stats": [
+    {
+      "value": "5",
+      "suffix": "+",
+      "label": "Years of design experience"
+    },
+    {
+      "value": "auto",
+      "suffix": "",
+      "label": "Designs in this portfolio"
+    }
+  ],
+  "marquee": [
+    "Brand Identity",
+    "Logo Design",
+    "Flyers",
+    "Social Media",
+    "Album Art",
+    "Illustration"
+  ],
+  "aboutText": "A creative brand designer specializing in strategic visual solutions that help businesses stand out, build trust, and connect with their target audience.\n\nI create high-quality brand identities, social media content, marketing materials, flyers, and landing pages that blend creativity with strategy. Every design is crafted with precision and purpose to elevate your brand and support your business goals.",
+  "tools": [
+    {
+      "name": "CorelDRAW",
+      "abbr": "Cd",
+      "level": 90
+    },
+    {
+      "name": "Photoshop",
+      "abbr": "Ps",
+      "level": 90
+    },
+    {
+      "name": "Adobe Illustrator",
+      "abbr": "Ai",
+      "level": 88
+    },
+    {
+      "name": "CapCut",
+      "abbr": "Cc",
+      "level": 80
+    },
+    {
+      "name": "ChatGPT",
+      "abbr": "AI",
+      "level": 80
+    }
+  ],
+  "toolsNote": "I also explore AI tools and integrate them across design direction, concept development, and creative exploration.",
+  "why": [
+    {
+      "title": "Experience",
+      "text": "5+ years of graphic design experience.\nDelivering creative solutions across branding, print, digital, and marketing design."
+    },
+    {
+      "title": "Strategic Design Thinking",
+      "text": "I don't just create beautiful designs.\nI create designs that solve problems and achieve business goals."
+    },
+    {
+      "title": "Attention to Detail",
+      "text": "Every project is crafted with precision,\nensuring consistency, quality, and professionalism."
+    }
+  ],
+  "services": [
+    {
+      "title": "Brand Identity & Logo",
+      "text": "A logo and visual system that makes your business look established and trustworthy from day one."
+    },
+    {
+      "title": "Flyers & Social Media",
+      "text": "Scroll-stopping campaign designs that turn views into enquiries and sales."
+    },
+    {
+      "title": "Album & Music Art",
+      "text": "Bold illustrated cover art that helps your release stand out on every platform."
+    },
+    {
+      "title": "Print & Marketing Materials",
+      "text": "Flyers, banners, signage and brand collateral that stay consistent everywhere your customers see you."
+    }
+  ],
+  "process": [
+    {
+      "title": "Tell me your idea",
+      "text": "Share your goals, audience and any references. A quick chat on WhatsApp is enough."
+    },
+    {
+      "title": "Concept",
+      "text": "I develop a direction that fits your brand and business goals before polishing details."
+    },
+    {
+      "title": "Design & revisions",
+      "text": "You review, I refine until it feels right."
+    },
+    {
+      "title": "Delivery",
+      "text": "You receive clean, ready-to-use files for print and digital."
+    }
+  ],
+  "testimonials": [],
+  "contact": {
+    "headline": "Let's Build\nSomething.",
+    "text": "Need a creative designer to bring your vision to life?\nI'd love to hear from you. Whether it's branding, social media design, print materials, I'm ready to help create solutions that make an impact.\n\nFeel free to get in touch to discuss your project, request a quote, or simply say hello.",
+    "email": "josephuba11@gmail.com",
+    "whatsapp": "+234 907 130 8345",
+    "instagram": "adcruizstudio",
+    "behance": "behance.net/adcruizstudio"
+  },
+  "portrait": "/images/uploads/portrait.svg",
+  "footer": "© 2026 ADCRUIZ · Joseph Uba. All rights reserved."
+}

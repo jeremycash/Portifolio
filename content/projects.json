@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "title": "Brand Identity",
+      "aspect": "portrait",
+      "fit": "cover",
+      "tagLabel": "Industry",
+      "tagValue": "Real Estate",
+      "items": [
+        { "type": "image", "image": "/images/uploads/sample-1.svg", "caption": "Replace me with your design" },
+        { "type": "image", "image": "/images/uploads/sample-2.svg", "caption": "Replace me with your design" },
+        { "type": "image", "image": "/images/uploads/sample-3.svg", "caption": "Replace me with your design" }
+      ]
+    },
+    {
+      "title": "Logo Design",
+      "aspect": "square",
+      "fit": "contain",
+      "items": [
+        { "type": "image", "image": "/images/uploads/sample-4.svg", "caption": "Logo sample" },
+        { "type": "image", "image": "/images/uploads/sample-5.svg", "caption": "Logo sample" },
+        { "type": "image", "image": "/images/uploads/sample-6.svg", "caption": "Logo sample" }
+      ]
+    },
+    {
+      "title": "Album/Music Arts",
+      "aspect": "square",
+      "fit": "cover",
+      "items": [
+        { "type": "image", "image": "/images/uploads/sample-7.svg", "caption": "Cover art sample" },
+        { "type": "image", "image": "/images/uploads/sample-8.svg", "caption": "Cover art sample" },
+        { "type": "image", "image": "/images/uploads/sample-1.svg", "caption": "Cover art sample" }
+      ]
+    },
+    {
+      "title": "Brand Flyer",
+      "aspect": "portrait",
+      "fit": "cover",
+      "tagLabel": "Campaign",
+      "tagValue": "Sample Campaign",
+      "items": [
+        { "type": "image", "image": "/images/uploads/sample-2.svg", "caption": "Flyer sample" },
+        { "type": "image", "image": "/images/uploads/sample-3.svg", "caption": "Flyer sample" },
+        { "type": "image", "image": "/images/uploads/sample-4.svg", "caption": "Flyer sample" }
+      ]
+    }
+  ]
+}

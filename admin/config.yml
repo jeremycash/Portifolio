@@ -1,0 +1,135 @@
+# Admin dashboard settings (Decap CMS).
+# CHANGE the repo line below to YOUR-GITHUB-USERNAME/YOUR-REPO-NAME after you create the repository.
+backend:
+  name: github
+  repo: jeremycash/Portifolio
+  branch: main
+
+# Uncomment the next line only when testing on your own computer (see SETUP.md)
+# local_backend: true
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: portfolio
+    label: "My Portfolio"
+    files:
+      # ------------------------------------------------------------------
+      - name: projects
+        label: "Projects (images and videos)"
+        file: "content/projects.json"
+        fields:
+          - label: "Categories (each one is a section on the Projects page)"
+            name: categories
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Category title", name: title, widget: string, hint: "Example: Logo Design, Brand Flyer, Album/Music Arts" }
+              - label: "Image shape"
+                name: aspect
+                widget: select
+                options:
+                  - { label: "Portrait (flyers, posters)", value: portrait }
+                  - { label: "Square (logos, album covers, Instagram posts)", value: square }
+                  - { label: "Landscape (mockups, banners)", value: landscape }
+                default: portrait
+              - label: "Fit"
+                name: fit
+                widget: select
+                options:
+                  - { label: "Fill the box (crop edges)", value: cover }
+                  - { label: "Show whole image (best for logos)", value: contain }
+                default: cover
+              - { label: "Small label (optional)", name: tagLabel, widget: string, required: false, hint: "Example: Campaign, Industry, Company Name" }
+              - { label: "Label value (optional)", name: tagValue, widget: string, required: false, hint: "Example: Yummy Burger" }
+              - label: "Items"
+                name: items
+                widget: list
+                summary: "{{fields.caption}} ({{fields.type}})"
+                fields:
+                  - label: "Type"
+                    name: type
+                    widget: select
+                    options:
+                      - { label: "Image", value: image }
+                      - { label: "Video link (YouTube / Vimeo / other)", value: video }
+                    default: image
+                  - { label: "Image (upload)", name: image, widget: image, required: false, hint: "For a video, you can upload a cover image here (optional)" }
+                  - { label: "Video link", name: video, widget: string, required: false, hint: "Paste a YouTube or Vimeo link. Other links (Instagram, TikTok) open in a new tab." }
+                  - { label: "Caption (optional)", name: caption, widget: string, required: false }
+
+      # ------------------------------------------------------------------
+      - name: site
+        label: "Site text, contact and photo"
+        file: "content/site.json"
+        fields:
+          - { label: "Brand name", name: brand, widget: string }
+          - { label: "Your name", name: ownerName, widget: string }
+          - { label: "Roles", name: roles, widget: list, field: { label: Role, name: role, widget: string } }
+          - { label: "Year on the folder", name: year, widget: string }
+          - { label: "Small line above headline", name: heroEyebrow, widget: string }
+          - { label: "Main headline", name: heroHeadline, widget: string }
+          - { label: "Sub text under headline", name: heroSub, widget: text }
+          - { label: "Message that opens in WhatsApp for general quotes", name: quoteMessage, widget: string }
+          - label: "Numbers on the home page"
+            name: stats
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Value (a number, or the word auto to count your designs)", name: value, widget: string }
+              - { label: "Suffix (example: +)", name: suffix, widget: string, required: false }
+              - { label: "Label", name: label, widget: string }
+          - { label: "Scrolling words strip", name: marquee, widget: list, field: { label: Word, name: word, widget: string } }
+          - { label: "About me text (leave a blank line between paragraphs)", name: aboutText, widget: text }
+          - label: "Design tools"
+            name: tools
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Short letters inside the circle", name: abbr, widget: string }
+              - { label: "Skill level (0 to 100)", name: level, widget: number, value_type: int, min: 0, max: 100 }
+          - { label: "Note under tools", name: toolsNote, widget: text }
+          - label: "Why me points"
+            name: why
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: text, widget: text }
+          - label: "Services"
+            name: services
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Short description", name: text, widget: text }
+          - label: "How we work (steps)"
+            name: process
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Text", name: text, widget: text }
+          - label: "Client testimonials (the section appears once you add the first one)"
+            name: testimonials
+            widget: list
+            required: false
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "What the client said", name: quote, widget: text }
+              - { label: "Client name", name: name, widget: string }
+              - { label: "Role or business", name: role, widget: string, required: false }
+          - label: "Contact"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Headline", name: headline, widget: text }
+              - { label: "Text", name: text, widget: text }
+              - { label: "Email", name: email, widget: string }
+              - { label: "WhatsApp number (with country code)", name: whatsapp, widget: string }
+              - { label: "Instagram username", name: instagram, widget: string }
+              - { label: "Behance link", name: behance, widget: string }
+          - { label: "Your portrait photo", name: portrait, widget: image }
+          - { label: "Footer text", name: footer, widget: string }
