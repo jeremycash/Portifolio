@@ -2,7 +2,7 @@
   "contact": {
     "headline": "Let's Build\nSomething.",
     "text": "Need a creative designer to bring your vision to life?\nI'd love to hear from you. Whether it's branding, social media design, print materials, I'm ready to help create solutions that make an impact.\n\nFeel free to get in touch to discuss your project, request a quote, or simply say hello.",
-    "email": "josephuba11@gmail.com",
+    "email": "Olaayonio@gmail.com",
     "whatsapp": "+234 815 2317 475",
     "instagram": "Pixellora",
     "behance": "https://www.behance.net/obasolaboluwaji?locale=en_US&utm_source=chatgpt.com"
@@ -17,7 +17,7 @@
     "Video Editor"
   ],
   "heroSub": "I help businesses stand out, build trust and win customers with brand identities, flyers, social media and album art that look sharp and sell.",
-  "brand": "SparkMedi",
+  "brand": "SparkMedia",
   "why": [
     {
       "title": "Experience",
@@ -54,7 +54,28 @@
     }
   ],
   "heroEyebrow": "Brand Designer · Art Director · Illustrator . Video Editor",
-  "testimonials": [],
+  "testimonials": [
+    {
+      "quote": "\"Working with Jeremiah was a great experience. He has a strong eye for visual communication and understands how to transform ideas into compelling designs. His creativity, attention to detail, and ability to deliver quality work made a real difference to our projects. I would gladly recommend him to anyone looking for a talented and reliable graphic designer.\"",
+      "name": "Helen Jacobs",
+      "role": "Owner / Entrepreneur"
+    },
+    {
+      "quote": "\"Jeremiah brings creativity and intentionality into every video project he handles. His understanding of storytelling, pacing, and visual presentation makes his work stand out. He doesn't just edit videos; he knows how to communicate a message and keep an audience engaged. His dedication to quality and willingness to improve are qualities I genuinely appreciate.\"",
+      "name": "Simon Nyang",
+      "role": " Media Director / Content Creator"
+    },
+    {
+      "quote": "\"Jeremiah has demonstrated impressive creativity, commitment, and leadership in media production. His ability to coordinate creative ideas, manage visual communication, and contribute meaningfully to media projects has been valuable to our organisation. He approaches assignments with professionalism and a clear understanding of the impact effective communication can make.\"\n",
+      "name": "Susan Joy",
+      "role": " Organisation Representative / Project Coordinator"
+    },
+    {
+      "quote": "\"Jeremiah is a versatile creative professional who brings more than technical skills to the table. He combines graphic design, video editing, digital communication, and creative problem-solving to deliver meaningful results. His adaptability, willingness to collaborate, and passion for storytelling make him someone I would confidently recommend for creative and digital media projects.\"",
+      "name": "Emmanuel Bulus",
+      "role": " Creative Director / Business Owner"
+    }
+  ],
   "aboutText": "A creative brand designer specializing in strategic visual solutions that help businesses stand out, build trust, and connect with their target audience.\n\nI create high-quality brand identities, social media content, marketing materials, flyers, and landing pages that blend creativity with strategy. Every design is crafted with precision and purpose to elevate your brand and support your business goals.",
   "footer": "© 2026 SPARKMEDIA· JeremySpark. All rights reserved.",
   "tools": [
@@ -100,6 +121,10 @@
     {
       "title": "Flyers & Social Media",
       "text": "Scroll-stopping campaign designs that turn views into enquiries and sales."
+    },
+    {
+      "title": "Video Content",
+      "text": "Short form contents that converts "
     },
     {
       "title": "Album & Music Art",
