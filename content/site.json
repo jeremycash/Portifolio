@@ -115,20 +115,24 @@
   ],
   "services": [
     {
-      "title": "Brand Identity & Logo",
-      "text": "A logo and visual system that makes your business look established and trustworthy from day one."
+      "title": "Motion Graphics & Animation",
+      "text": "Bring ideas to life through animated typography, engaging visual effects, logo animations, and dynamic graphics designed to capture attention and communicate messages."
     },
     {
-      "title": "Flyers & Social Media",
-      "text": "Scroll-stopping campaign designs that turn views into enquiries and sales."
+      "title": "Brand Identity & Logo",
+      "text": "A logo and visual system that makes your business look established and trustworthy from day one."
     },
     {
       "title": "Video Content",
       "text": "ransform raw footage into compelling visual stories through professional editing, cinematic transitions, colour grading, sound design, and engaging storytelling."
     },
     {
-      "title": "Album & Music Art",
-      "text": "Bold illustrated cover art that helps your release stand out on every platform."
+      "title": "Flyers & Social Media",
+      "text": "Scroll-stopping campaign designs that turn views into enquiries and sales."
+    },
+    {
+      "title": "Social Media Content Creation",
+      "text": "reate visually compelling content, digital campaigns, and platform-specific creatives that strengthen brand identity, engage audiences, and drive meaningful online growth."
     },
     {
       "title": "Print & Marketing Materials",
@@ -139,12 +143,8 @@
       "text": "Design bold, attention-grabbing thumbnails that communicate your video's value, spark curiosity, and encourage viewers to click."
     },
     {
-      "title": "Motion Graphics & Animation",
-      "text": "Bring ideas to life through animated typography, engaging visual effects, logo animations, and dynamic graphics designed to capture attention and communicate messages."
-    },
-    {
-      "title": "Social Media Content Creation",
-      "text": "reate visually compelling content, digital campaigns, and platform-specific creatives that strengthen brand identity, engage audiences, and drive meaningful online growth."
+      "title": "Album & Music Art",
+      "text": "Bold illustrated cover art that helps your release stand out on every platform."
     }
   ],
   "ownerName": "Jeremy spark",
